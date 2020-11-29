@@ -13,7 +13,7 @@ export class CockpitComponent implements OnInit {
   //() for EventEmitter object
   //newServerName = '';
   //newServerContent = '';
-  @ViewChild('serverContentInput', {static: true}) serverContentInput: ElementRef; //name of local reference in string OR CockpitComponent
+  @ViewChild('serverContentInput') serverContentInput: ElementRef; //name of local reference in string OR CockpitComponent
   constructor() { }
 
   ngOnInit() {
